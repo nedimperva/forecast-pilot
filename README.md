@@ -304,14 +304,17 @@ slow networks, and interrupted refreshes.
 
 ### met.no User-Agent
 
-met.no requires a `User-Agent` identifying the application and a contact point.
-Update it before distributing a fork:
+met.no requires a `User-Agent` identifying the application and a contact point
+they can actually reach. Update it before distributing a fork:
 
 ```ts
 // src/constants.ts
 export const APP_USER_AGENT =
-  "forecast-pilot-raycast-extension/1.2 (https://github.com/nedimperva/forecast-pilot)";
+  "forecast-pilot/1.2 (https://github.com/nedimperva/forecast-pilot)";
 ```
+
+The version here is maintained by hand — bump it alongside `version` in
+`package.json` when the release changes.
 
 ---
 
