@@ -310,7 +310,7 @@ Update it before distributing a fork:
 ```ts
 // src/constants.ts
 export const APP_USER_AGENT =
-  "forecast-pilot-raycast-extension/1.2 (https://github.com/nedimperva/ray-weather)";
+  "forecast-pilot-raycast-extension/1.2 (https://github.com/nedimperva/forecast-pilot)";
 ```
 
 ---

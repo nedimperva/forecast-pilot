@@ -45,8 +45,8 @@ Beyond parity, the Linux build uses capabilities Raycast does not offer:
 ## Install
 
 ```bash
-git clone https://github.com/nedimperva/ray-weather
-cd ray-weather
+git clone https://github.com/nedimperva/forecast-pilot
+cd forecast-pilot
 npm install
 npm run build:vicinae
 ```

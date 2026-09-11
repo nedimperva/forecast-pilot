@@ -29,4 +29,4 @@ export const CACHE_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 export const CACHE_STALE_AFTER_MS = 6 * 60 * 60 * 1000;
 
 export const APP_USER_AGENT =
-  "forecast-pilot-raycast-extension/1.2 (https://github.com/nedimperva/ray-weather)";
+  "forecast-pilot-raycast-extension/1.2 (https://github.com/nedimperva/forecast-pilot)";
